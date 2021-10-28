@@ -51,7 +51,7 @@ public class Main {
 //      unesena negativna, odnosno dovoljna suma novca.
 
         unosArtikalaUMarket();
-        for (; ; ) {
+       for (; ; ) {
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
             Scanner scanner = new Scanner(System.in);
             int opcija = scanner.nextInt();
