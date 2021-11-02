@@ -4,6 +4,7 @@ public class Korpa {
 
     private Artikl[] artikli = new Artikl[50];
     private int velicina = 0;
+    private int brArtikala = 0;
 
     public Korpa() {
 
@@ -13,7 +14,13 @@ public class Korpa {
         if (velicina >= 50) return false;
         artikli[velicina] = a;
         velicina++;
+        brArtikala++;
         return true;
+    }
+
+    public int getBrArtikala() {
+        return brArtikala;
+
     }
 
     public Artikl[] getArtikli() {

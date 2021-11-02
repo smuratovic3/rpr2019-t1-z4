@@ -4,6 +4,7 @@ public class Artikl {
     private String naziv, kod;
     private int cijena;
 
+
     public Artikl() {
     }
 
@@ -12,6 +13,7 @@ public class Artikl {
         this.cijena = cijena;
         this.kod = kod;
     }
+
 
     public String getNaziv() {
         return naziv;

@@ -9,6 +9,10 @@ public class Supermarket {
         velicina++;
     }
 
+    public int getVelicina() {
+        return velicina;
+    }
+
     public Artikl izbaciArtiklSaKodom(String kod) {
         for (int i = 0; i < velicina; i++) {
             if (artikli[i].getKod().equals(kod)) {
